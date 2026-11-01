@@ -1,0 +1,67 @@
+{
+  "name": "Mini@ᯇᴗᯇ",
+  "short_name": "Mini@ᯇᴗᯇ",
+  "description": "梦女 / 乙女向 · 私密工作台",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "fullscreen",
+    "minimal-ui"
+  ],
+  "orientation": "portrait",
+  "background_color": "#eceeef",
+  "theme_color": "#eceeef",
+  "categories": [
+    "lifestyle",
+    "productivity",
+    "social"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "消息",
+      "url": "./index.html#tab=chat"
+    },
+    {
+      "name": "动态",
+      "url": "./index.html#tab=moments"
+    },
+    {
+      "name": "笔记",
+      "url": "./index.html#tab=notes"
+    },
+    {
+      "name": "待办",
+      "url": "./index.html#tab=notes&sub=todo"
+    }
+  ]
+}
